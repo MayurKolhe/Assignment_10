@@ -64,7 +64,7 @@
                1. Return an array created from a query on the database using the SQL statement `SELECT contacts.*, phones.* FROM contacts LEFT JOIN phones ON contacts.contact_id=phones.contact_id`.
 1. Run the unit testing program to ensure that your program runs as expected.
     ```
-    ./test.sh
+    .python3 test.py
     ```
     The unit testing will output the results of a series of tests using specific input and expected output.  Any error will provide information on where the expected output is different from the actual output.  You will need to edit your source code to fix the error and run `./test.sh` repeatedly until it passes all the test.
 
